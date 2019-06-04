@@ -1,2 +1,2 @@
 def line(deli)
-  if line
+  if deli.empty
