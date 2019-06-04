@@ -6,6 +6,7 @@ def line(deli)
     deli.each_with_index do |person, i|
       current_line << " #{i}. #{person}"
     end
+    puts current_line
   end
 end
 
